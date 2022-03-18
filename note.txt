@@ -1,2 +1,16 @@
 babel là compiler 
 webpack là trình biên dịch 
+component là 1 hàm trả về jsx 
+jsx chính là biến đc gán bằng html 
+  let element = <h1>element jsx </h1>
+jsx có thể viết đc các hàm js trong code html 
+có 2 loại component là : function component, class component 
+props trong function 
+   function wellcome(props) {
+       return (
+           <h1>hello {props.name}</h1>
+       )
+   }
+    khi truyền props ta truyền name = 'value gì đó ở đây'
+nếu trong 1 file js có nhiều component thì khi export {file cần export} tên file nó export nhiều file 
+nếu là export default tenfile thì nó chỉ export mặc định 1 component mà thôi 
